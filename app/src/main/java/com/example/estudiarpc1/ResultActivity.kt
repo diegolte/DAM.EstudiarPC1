@@ -11,7 +11,7 @@ class ResultActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_result)
 
-        val message = intent.getStringExtra("GAAAAAAAAAAA")
+        val message = intent.getStringExtra("GAAAAAAAAAAAa")
         val textView = findViewById<TextView>(R.id.tvResult)
         textView.text = message
         val btnBack: Button = findViewById(R.id.btnBack)

@@ -20,7 +20,7 @@ class MainActivity : AppCompatActivity() {
     private fun sendMessage(message: String)
     {
         val intent = Intent(this, ResultActivity::class.java)
-        intent.putExtra("GAAAAAAAAAAA",message)
+        intent.putExtra("GAAAAAAAAAAAa",message)
         startActivity(intent)
     }
 }
